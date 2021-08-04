@@ -1,0 +1,94 @@
+.header{
+    width: 100%;
+    min-height:100vh;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.header::before{
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.navbar a{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: start;
+    padding: 10px 5px;
+}
+.navg a{
+    color: white !important;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition:all 1s ease;
+}
+.navg a:hover{
+    background-color: #ffffffa2;
+    border-radius: 18px;
+}
+.text-header{
+    min-height: 100vh;
+    color:#007bff;
+    font-family:Arial, Helvetica, sans-serif ;
+   
+}
+.text-header h2{
+    font-size: 50px;
+}
+.text-header p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.text-header span{
+    letter-spacing: 5px;
+    font-size: 1,2cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0 0 0 5px;
+}
+.btn-yo{
+    padding: 7px 12px;
+    color: white;
+    background-color:#007bff;
+    font-weight: bold
+}
+.btn-yo a:hover{
+    color: white;
+    background-color: #ffff;
+}
+.card-container{
+    width: 100px;
+    height:100vh;
+    
+}
+.card{
+    width: 18rem;
+    height: auto;
+    border-radius: 15px;
+    font-size: bold;
+    
+}
+
+
+
+.card h5{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff;
+    font-weight: bold;
+}
